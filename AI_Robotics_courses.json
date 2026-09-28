@@ -1,0 +1,799 @@
+{
+    "majors": {
+        "AI&Robotics": {
+            "courses": [
+                {
+                    "CourseID": "IEC101",
+                    "CourseName": "الابتكار والريادة والابداع",
+                    "NumberOfHours": 2,
+                    "Description": "دراسة مبادئ التفكير الإبداعي وريادة الأعمال وتطوير الأفكار المبتكرة.",
+                    "Notes": "السنة - 1",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [],
+                    "CourseType": "متطلب جامعة اجباري"
+                },
+                {
+                    "CourseID": "NE101",
+                    "CourseName": "التربية الوطنية والسلوك الجامعي",
+                    "NumberOfHours": 3,
+                    "Description": "فهم القيم الوطنية والسلوكيات الجامعية الصحيحة.",
+                    "Notes": "السنة - 1",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [],
+                    "CourseType": "متطلب جامعة اجباري"
+                },
+                {
+                    "CourseID": "AEL102",
+                    "CourseName": "لغة انجليزية تطبيقية (2)",
+                    "NumberOfHours": 3,
+                    "Description": "مهارات اللغة الإنجليزية العملية للتواصل والقراءة والكتابة.",
+                    "Notes": "السنة - 1",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "لغة انجليزية تطبيقية(1) "
+                    ],
+                    "CourseType": "متطلب جامعة اجباري"
+                },
+                {
+                    "CourseID": "AEL101",
+                    "CourseName": "لغة انجليزية تطبيقية(1)",
+                    "NumberOfHours": 3,
+                    "Description": "تحسين مهارات اللغة الإنجليزية في القراءة والكتابة.",
+                    "Notes": "امتحان مستوى اللغة الانجليزية  او اللغة الانجليزية الاستدراكية السنة - 1",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [],
+                    "CourseType": "متطلب جامعة اجباري"
+                },
+                {
+                    "CourseID": "AAL101",
+                    "CourseName": "لغة عربية تطبيقية",
+                    "NumberOfHours": 3,
+                    "Description": "تحسين مهارات الكتابة والقراءة باللغة العربية.",
+                    "Notes": "امتحان مستوى اللغة العربية أو اللغة العربية 99 السنة - 1",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [],
+                    "CourseType": "متطلب جامعة اجباري"
+                },
+                {
+                    "CourseID": "CS101",
+                    "CourseName": "مهارات الحاسوب والتعليم الالكتروني",
+                    "NumberOfHours": 1,
+                    "Description": "أساسيات استخدام الحاسوب والتقنيات الحديثة في التعلم الإلكتروني.",
+                    "Notes": "امتحان مستوى مهارات الحاسوب أو مهارات الحاسوب الاستدراكية السنة - 1",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [],
+                    "CourseType": "متطلب جامعة اجباري"
+                },
+                {
+                    "CourseID": "35001101",
+                    "CourseName": "العلوم العسكرية",
+                    "NumberOfHours": 3,
+                    "Description": "مبادئ العلوم العسكرية والانضباط العسكري.",
+                    "Notes": "يجب ان يكون الطالب قد قطع 80 ساعة السنة - 4",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [],
+                    "CourseType": "متطلب جامعة اجباري"
+                },
+                {
+                    "CourseID": "36001101",
+                    "CourseName": "مهارات الاتصال .",
+                    "NumberOfHours": 3,
+                    "Description": "تطوير مهارات الاتصال الشفوي والكتابي والتعامل مع الآخرين.",
+                    "Notes": "السنة - 0",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [],
+                    "CourseType": "متطلب جامعة اختياري"
+                },
+                {
+                    "CourseID": "36009109",
+                    "CourseName": "الاسلام والحياه",
+                    "NumberOfHours": 3,
+                    "Description": "القيم الإسلامية وتطبيقها في الحياة اليومية.",
+                    "Notes": "السنة - 1",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [],
+                    "CourseType": "متطلب جامعة اختياري"
+                },
+                {
+                    "CourseID": "36008108",
+                    "CourseName": "البيئة والمجتمع",
+                    "NumberOfHours": 3,
+                    "Description": "دراسة العلاقة بين البيئة والمجتمع وتأثير الإنسان على البيئة.",
+                    "Notes": "السنة - 1",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [],
+                    "CourseType": "متطلب جامعة اختياري"
+                },
+                {
+                    "CourseID": "36005105",
+                    "CourseName": "الثقافة الإسلامية",
+                    "NumberOfHours": 3,
+                    "Description": "مبادئ الثقافة الإسلامية والمعارف الدينية.",
+                    "Notes": "السنة - 1",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [],
+                    "CourseType": "متطلب جامعة اختياري"
+                },
+                {
+                    "CourseID": "36004104",
+                    "CourseName": "الرياضة والصحة للجميع",
+                    "NumberOfHours": 3,
+                    "Description": "أساسيات الرياضة وأهمية الصحة البدنية.",
+                    "Notes": "السنة - 1",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [],
+                    "CourseType": "متطلب جامعة اختياري"
+                },
+                {
+                    "CourseID": "36007107",
+                    "CourseName": "الزراعة في الاردن",
+                    "NumberOfHours": 3,
+                    "Description": "دراسة الزراعة وأهميتها في الأردن.",
+                    "Notes": "السنة - 1",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [],
+                    "CourseType": "متطلب جامعة اختياري"
+                },
+                {
+                    "CourseID": "TS 105",
+                    "CourseName": "السلامة المرورية",
+                    "NumberOfHours": 3,
+                    "Description": "قواعد السلامة المرورية والوعي المروري.",
+                    "Notes": "السنة - 1",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [],
+                    "CourseType": "متطلب جامعة اختياري"
+                },
+                {
+                    "CourseID": "36009112",
+                    "CourseName": "القانون والاعلام والمجتمع",
+                    "NumberOfHours": 3,
+                    "Description": "العلاقة بين القانون ووسائل الإعلام وتأثيرها على المجتمع.",
+                    "Notes": "السنة - 1",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [],
+                    "CourseType": "متطلب جامعة اختياري"
+                },
+                {
+                    "CourseID": "36009114",
+                    "CourseName": "القدس (القضية الفلسطينية)",
+                    "NumberOfHours": 3,
+                    "Description": "دراسة تاريخ القدس والقضية الفلسطينية.",
+                    "Notes": "السنة - 1",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [],
+                    "CourseType": "متطلب جامعة اختياري"
+                },
+                {
+                    "CourseID": "36003103",
+                    "CourseName": "المجتمع الاردني",
+                    "NumberOfHours": 3,
+                    "Description": "دراسة المجتمع الأردني وقيمه وتاريخه.",
+                    "Notes": "السنة - 1",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [],
+                    "CourseType": "متطلب جامعة اختياري"
+                },
+                {
+                    "CourseID": "36012109",
+                    "CourseName": "تاريخ الخلفاء الراشدين",
+                    "NumberOfHours": 3,
+                    "Description": "دراسة حياة الخلفاء الراشدين وأحداث العصر الإسلامي المبكر.",
+                    "Notes": "السنة - 1",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [],
+                    "CourseType": "متطلب جامعة اختياري"
+                },
+                {
+                    "CourseID": "36002102",
+                    "CourseName": "مباديء علم النفس",
+                    "NumberOfHours": 3,
+                    "Description": "مقدمة لمبادئ علم النفس والسلوك البشري.",
+                    "Notes": "السنة - 1",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [],
+                    "CourseType": "متطلب جامعة اختياري"
+                },
+                {
+                    "CourseID": "36009111",
+                    "CourseName": "مفاهيم اقتصـادية",
+                    "NumberOfHours": 3,
+                    "Description": "أساسيات الاقتصاد والمفاهيم الاقتصادية الرئيسية.",
+                    "Notes": "السنة - 1",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [],
+                    "CourseType": "متطلب جامعة اختياري"
+                },
+                {
+                    "CourseID": "36009110",
+                    "CourseName": "مفاهيم ومهارات إدارية معاصرة",
+                    "NumberOfHours": 3,
+                    "Description": "دراسة أساسيات الإدارة الحديثة ومهارات القيادة.",
+                    "Notes": "السنة - 1",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [],
+                    "CourseType": "متطلب جامعة اختياري"
+                },
+                {
+                    "CourseID": "30202101",
+                    "CourseName": "التفاضل والتكامل (1)",
+                    "NumberOfHours": 3,
+                    "Description": "دراسة أساسيات التفاضل والتكامل وتطبيقاتها.",
+                    "Notes": "السنة - 1",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [],
+                    "CourseType": "متطلب كلية اجباري"
+                },
+                {
+                    "CourseID": "30202102",
+                    "CourseName": "التفاضل والتكامل (2)",
+                    "NumberOfHours": 3,
+                    "Description": "متابعة مفاهيم التفاضل والتكامل مع تطبيقات متقدمة.",
+                    "Notes": "السنة - 1",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "التفاضل والتكامل (1)"
+                    ],
+                    "CourseType": "متطلب كلية اجباري"
+                },
+                {
+                    "CourseID": "30801102",
+                    "CourseName": "مختبر مهارات حاسوب (2) لطلبة الكليات العلمية",
+                    "NumberOfHours": 0,
+                    "Description": "تدريب عملي على مهارات الحاسوب المتقدمة للطلبة.",
+                    "Notes": "السنة - 1",
+                    "ConcurrentCourses": [
+                        "مهارات الحاسوب (2) لطلبة الكليات العلمية "
+                    ],
+                    "Prerequisite": [],
+                    "CourseType": "متطلب كلية اجباري"
+                },
+                {
+                    "CourseID": "AR142",
+                    "CourseName": "مقدمة في الذكاء الاصطناعـــــي",
+                    "NumberOfHours": 3,
+                    "Description": "التعرف على أساسيات الذكاء الاصطناعي وتطبيقاته.",
+                    "Notes": "السنة - 1",
+                    "ConcurrentCourses": [
+                        "التفاضل والتكامل (2)"
+                    ],
+                    "Prerequisite": [],
+                    "CourseType": "متطلب كلية اجباري"
+                },
+                {
+                    "CourseID": "30801101",
+                    "CourseName": "مهارات الحاسوب (2) لطلبة الكليات العلمية",
+                    "NumberOfHours": 3,
+                    "Description": "تطوير مهارات الحاسوب العملية والتطبيقية.",
+                    "Notes": "السنة - 1",
+                    "ConcurrentCourses": [
+                        "مختبر مهارات حاسوب (2) لطلبة الكليات العلمية",
+                        "مهارات الحاسوب والتعليم الالكتروني"
+                    ],
+                    "Prerequisite": [],
+                    "CourseType": "متطلب كلية اجباري"
+                },
+                {
+                    "CourseID": "30801203",
+                    "CourseName": "البرمجة الموجهة للكائنات",
+                    "NumberOfHours": 3,
+                    "Description": "تعلم أساسيات البرمجة باستخدام مفهوم الكائنات.",
+                    "Notes": "السنة - 2",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "مهارات الحاسوب (2) لطلبة الكليات العلمية "
+                    ],
+                    "CourseType": "متطلب كلية اجباري"
+                },
+                {
+                    "CourseID": "AR241",
+                    "CourseName": "برمجة الذكاء الاصطناعي",
+                    "NumberOfHours": 3,
+                    "Description": "تطبيق البرمجة في مشاريع الذكاء الاصطناعي العملية.",
+                    "Notes": "السنة - 2",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "مقدمة في الذكاء الاصطناعـــــي"
+                    ],
+                    "CourseType": "متطلب كلية اجباري"
+                },
+                {
+                    "CourseID": "30801204",
+                    "CourseName": "مختبر البرمجة الموجهة للكائنات",
+                    "NumberOfHours": 1,
+                    "Description": "تدريب عملي على البرمجة الموجهة للكائنات.",
+                    "Notes": "السنة - 2",
+                    "ConcurrentCourses": [
+                        "البرمجة الموجهة للكائنات"
+                    ],
+                    "Prerequisite": [],
+                    "CourseType": "متطلب كلية اجباري"
+                },
+                {
+                    "CourseID": "AR231",
+                    "CourseName": "مقدمة الى يونكس",
+                    "NumberOfHours": 1,
+                    "Description": "التعرف على نظام التشغيل يونكس وأوامره الأساسية.",
+                    "Notes": "السنة - 2",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [],
+                    "CourseType": "متطلب كلية اجباري"
+                },
+                {
+                    "CourseID": "30202131",
+                    "CourseName": "الاحتمالات والاحصاء",
+                    "NumberOfHours": 3,
+                    "Description": "دراسة مفاهيم الاحتمالات والإحصاء وتطبيقاتها.",
+                    "Notes": "السنة - 1",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "التفاضل والتكامل (1) "
+                    ],
+                    "CourseType": "متطلب تخصص اجباري"
+                },
+                {
+                    "CourseID": "30202199",
+                    "CourseName": "الجبر الخطي لطلبة الذكاء الاصطناعي والربوتات",
+                    "NumberOfHours": 3,
+                    "Description": "دراسة أساسيات الجبر الخطي للذكاء الاصطناعي والروبوتات.",
+                    "Notes": "السنة - 1",
+                    "ConcurrentCourses": [
+                        "التفاضل والتكامل (1) "
+                    ],
+                    "Prerequisite": [],
+                    "CourseType": "متطلب تخصص اجباري"
+                },
+                {
+                    "CourseID": "30102212",
+                    "CourseName": "تصميم المنطق الرقمــي",
+                    "NumberOfHours": 3,
+                    "Description": "تعلم تصميم الدوائر الرقمية والمنطق الرقمي.",
+                    "Notes": "السنة - 2",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "مهارات الحاسوب (2) لطلبة الكليات العلمية "
+                    ],
+                    "CourseType": "متطلب تخصص اجباري"
+                },
+                {
+                    "CourseID": "AR212",
+                    "CourseName": "تصميم وتحليل الخوارزميــــات",
+                    "NumberOfHours": 3,
+                    "Description": "دراسة تصميم وتحليل الخوارزميات بكفاءة عالية.",
+                    "Notes": "السنة - 2",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "هياكل البيانات"
+                    ],
+                    "CourseType": "متطلب تخصص اجباري"
+                },
+                {
+                    "CourseID": "AR243",
+                    "CourseName": "تعلم الالة",
+                    "NumberOfHours": 3,
+                    "Description": "مقدمة لتقنيات التعلم الآلي وتطبيقاته العملية.",
+                    "Notes": "السنة - 2",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "مقدمة في الذكاء الاصطناعـــــي "
+                    ],
+                    "CourseType": "متطلب تخصص اجباري"
+                },
+                {
+                    "CourseID": "30102213",
+                    "CourseName": "مختبر تصميم المنطق الرقمــي",
+                    "NumberOfHours": 1,
+                    "Description": "تدريب عملي على تصميم الدوائر والمنطق الرقمي.",
+                    "Notes": "السنة - 2",
+                    "ConcurrentCourses": [
+                        "تصميم المنطق الرقمــي"
+                    ],
+                    "Prerequisite": [],
+                    "CourseType": "متطلب تخصص اجباري"
+                },
+                {
+                    "CourseID": "AR214",
+                    "CourseName": "مختبر هياكل البيانات والخوارزميات",
+                    "NumberOfHours": 1,
+                    "Description": "تدريب عملي على هياكل البيانات والخوارزميات.",
+                    "Notes": "السنة - 2",
+                    "ConcurrentCourses": [
+                        "تصميم وتحليل الخوارزميــــات"
+                    ],
+                    "Prerequisite": [],
+                    "CourseType": "متطلب تخصص اجباري"
+                },
+                {
+                    "CourseID": "AR232",
+                    "CourseName": "معمارية الحاسوب",
+                    "NumberOfHours": 3,
+                    "Description": "دراسة بنية الحاسوب ووحداته المختلفة.",
+                    "Notes": "السنة - 2",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "تصميم المنطق الرقمــي "
+                    ],
+                    "CourseType": "متطلب تخصص اجباري"
+                },
+                {
+                    "CourseID": "AR246",
+                    "CourseName": "مقدمة الى التحسين",
+                    "NumberOfHours": 3,
+                    "Description": "مفاهيم التحسين وتطبيقاتها في علوم الحاسوب.",
+                    "Notes": "السنة - 2",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "تعلم الالة "
+                    ],
+                    "CourseType": "متطلب تخصص اجباري"
+                },
+                {
+                    "CourseID": "AR256",
+                    "CourseName": "مقدمة في الروبوتات المتنقلة",
+                    "NumberOfHours": 3,
+                    "Description": "التعرف على الروبوتات المتنقلة ومبادئ تشغيلها.",
+                    "Notes": "السنة - 2",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "تعلم الالة "
+                    ],
+                    "CourseType": "متطلب تخصص اجباري"
+                },
+                {
+                    "CourseID": "AR211",
+                    "CourseName": "هياكل البيانات",
+                    "NumberOfHours": 3,
+                    "Description": "دراسة أنواع هياكل البيانات واستخداماتها.",
+                    "Notes": "السنة - 2",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "البرمجة الموجهة للكائنات "
+                    ],
+                    "CourseType": "متطلب تخصص اجباري"
+                },
+                {
+                    "CourseID": "AR341",
+                    "CourseName": "الانظمة المشوشة",
+                    "NumberOfHours": 3,
+                    "Description": "دراسة الأنظمة المشوشة ونظريات التحكم.",
+                    "Notes": "السنة - 3",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "مقدمة الى التحسين "
+                    ],
+                    "CourseType": "متطلب تخصص اجباري"
+                },
+                {
+                    "CourseID": "AR331",
+                    "CourseName": "الانظمة المضمنة",
+                    "NumberOfHours": 3,
+                    "Description": "التعرف على الأنظمة المدمجة وتطبيقاتها العملية.",
+                    "Notes": "السنة - 3",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "معمارية الحاسوب"
+                    ],
+                    "CourseType": "متطلب تخصص اجباري"
+                },
+                {
+                    "CourseID": "AR346",
+                    "CourseName": "التعلم العميق",
+                    "NumberOfHours": 3,
+                    "Description": "مفاهيم التعلم العميق وتطبيقاته في الذكاء الاصطناعي.",
+                    "Notes": "السنة - 3",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "الانظمة المشوشة "
+                    ],
+                    "CourseType": "متطلب تخصص اجباري"
+                },
+                {
+                    "CourseID": "AR352",
+                    "CourseName": "انظمة التحكم الذاتي للربوتات",
+                    "NumberOfHours": 3,
+                    "Description": "دراسة التحكم الذاتي للروبوتات وتطبيقاته.",
+                    "Notes": "السنة - 3",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "الانظمة المضمنة "
+                    ],
+                    "CourseType": "متطلب تخصص اجباري"
+                },
+                {
+                    "CourseID": "AR342",
+                    "CourseName": "تمثيل المعرفة والاستدلال",
+                    "NumberOfHours": 3,
+                    "Description": "تعلم طرق تمثيل المعرفة وتقنيات الاستدلال.",
+                    "Notes": "السنة - 3",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "تعلم الالة "
+                    ],
+                    "CourseType": "متطلب تخصص اجباري"
+                },
+                {
+                    "CourseID": "AR353",
+                    "CourseName": "روبوت الرؤية",
+                    "NumberOfHours": 3,
+                    "Description": "تطبيقات رؤية الحاسوب في الروبوتات.",
+                    "Notes": "السنة - 3",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "مقدمة في الروبوتات المتنقلة "
+                    ],
+                    "CourseType": "متطلب تخصص اجباري"
+                },
+                {
+                    "CourseID": "AR355",
+                    "CourseName": "روبوتات الادراك",
+                    "NumberOfHours": 3,
+                    "Description": "دراسة الروبوتات وفهم البيئة المحيطة بها.",
+                    "Notes": "السنة - 3",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "مقدمة في الروبوتات المتنقلة "
+                    ],
+                    "CourseType": "متطلب تخصص اجباري"
+                },
+                {
+                    "CourseID": "AR348",
+                    "CourseName": "مختبر الذكاء الاصطناعي 1",
+                    "NumberOfHours": 1,
+                    "Description": "تدريب عملي على مشاريع الذكاء الاصطناعي.",
+                    "Notes": "السنة - 3",
+                    "ConcurrentCourses": [
+                        "التعلم العميق"
+                    ],
+                    "Prerequisite": [],
+                    "CourseType": "متطلب تخصص اجباري"
+                },
+                {
+                    "CourseID": "AR356",
+                    "CourseName": "مختبر الروبوت 1",
+                    "NumberOfHours": 1,
+                    "Description": "تدريب عملي على تشغيل الروبوتات.",
+                    "Notes": "السنة - 3",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "روبوتات الادراك "
+                    ],
+                    "CourseType": "متطلب تخصص اجباري"
+                },
+                {
+                    "CourseID": "AR354",
+                    "CourseName": "مختبر انظمة التحكم الذاتي للربوتات",
+                    "NumberOfHours": 1,
+                    "Description": "تدريب عملي على التحكم الذاتي للروبوتات.",
+                    "Notes": "السنة - 3",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "انظمة التحكم الذاتي للربوتات"
+                    ],
+                    "CourseType": "متطلب تخصص اجباري"
+                },
+                {
+                    "CourseID": "AR344",
+                    "CourseName": "معالجة اللغة الطبيعية",
+                    "NumberOfHours": 3,
+                    "Description": "دراسة تقنيات معالجة اللغة الطبيعية.",
+                    "Notes": "السنة - 3",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "تعلم الالة"
+                    ],
+                    "CourseType": "متطلب تخصص اجباري"
+                },
+                {
+                    "CourseID": "30102324",
+                    "CourseName": "نظم التشغيـل للهندســة",
+                    "NumberOfHours": 3,
+                    "Description": "التعرف على نظم التشغيل وتطبيقاتها الهندسية.",
+                    "Notes": "السنة - 3",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "معمارية الحاسوب "
+                    ],
+                    "CourseType": "متطلب تخصص اجباري"
+                },
+                {
+                    "CourseID": "AR360",
+                    "CourseName": "التدريب الميداني لطلبة الذكاء الاصطناعي والروبوتات",
+                    "NumberOfHours": 6,
+                    "Description": "تدريب عملي بعد اجتياز 90 ساعة أكاديمية.",
+                    "Notes": "يجب ان يكون الطالب قد قطع 90 ساعة السنة - 4",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [],
+                    "CourseType": "متطلب تخصص اجباري"
+                },
+                {
+                    "CourseID": "AR441",
+                    "CourseName": "مختبر الذكاء الاصطناعي 2",
+                    "NumberOfHours": 1,
+                    "Description": "متابعة تدريب مشاريع الذكاء الاصطناعي.",
+                    "Notes": "السنة - 4",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "مختبر الذكاء الاصطناعي  1"
+                    ],
+                    "CourseType": "متطلب تخصص اجباري"
+                },
+                {
+                    "CourseID": "AR451",
+                    "CourseName": "مختبر الروبوت 2",
+                    "NumberOfHours": 1,
+                    "Description": "متابعة التدريب على تشغيل الروبوتات.",
+                    "Notes": "السنة - 4",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "مختبر الروبوت 1 "
+                    ],
+                    "CourseType": "متطلب تخصص اجباري"
+                },
+                {
+                    "CourseID": "AR471",
+                    "CourseName": "مشروع 1 لطلبة الذكاء الاصطناعي والروبوتات",
+                    "NumberOfHours": 1,
+                    "Description": "تنفيذ مشروع عملي للذكاء الاصطناعي والروبوتات.",
+                    "Notes": "يجب ان يكون الطالب قد قطع 90 ساعة السنة - 4",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [],
+                    "CourseType": "متطلب تخصص اجباري"
+                },
+                {
+                    "CourseID": "AR472",
+                    "CourseName": "مشروع 2 لطلبة الذكاء الاصطناعي والربوتات",
+                    "NumberOfHours": 2,
+                    "Description": "متابعة مشروع عملي متقدم للذكاء الاصطناعي والروبوتات.",
+                    "Notes": "السنة - 4",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "مشروع 1 لطلبة الذكاء الاصطناعي والروبوتات "
+                    ],
+                    "CourseType": "متطلب تخصص اجباري"
+                },
+                {
+                    "CourseID": "AR449",
+                    "CourseName": "البرمجة المتوازية للتطبيقات الذكية",
+                    "NumberOfHours": 3,
+                    "Description": "دراسة تقنيات البرمجة المتوازية والتطبيقات الذكية.",
+                    "Notes": "السنة - 4",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "التعلم العميق"
+                    ],
+                    "CourseType": "متطلب تخصص اختياري"
+                },
+                {
+                    "CourseID": "AR447",
+                    "CourseName": "التعرف على الكلام وفهمه",
+                    "NumberOfHours": 3,
+                    "Description": "دراسة تقنيات التعرف على الكلام وتحليل الصوت.",
+                    "Notes": "السنة - 4",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "التعلم العميق"
+                    ],
+                    "CourseType": "متطلب تخصص اختياري"
+                },
+                {
+                    "CourseID": "AR443",
+                    "CourseName": "التنقيب الذكي عن النصوص",
+                    "NumberOfHours": 3,
+                    "Description": "تطبيقات التنقيب عن البيانات والنصوص.",
+                    "Notes": "السنة - 4",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "التعلم العميق"
+                    ],
+                    "CourseType": "متطلب تخصص اختياري"
+                },
+                {
+                    "CourseID": "AR457",
+                    "CourseName": "الروبوتات في اعادة التاهيل",
+                    "NumberOfHours": 3,
+                    "Description": "استخدام الروبوتات في برامج إعادة التأهيل.",
+                    "Notes": "السنة - 4",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "مختبر الروبوت 1"
+                    ],
+                    "CourseType": "متطلب تخصص اختياري"
+                },
+                {
+                    "CourseID": "AR445",
+                    "CourseName": "تحليل الشبكات الاجتماعية",
+                    "NumberOfHours": 3,
+                    "Description": "دراسة الشبكات الاجتماعية وتحليل البيانات.",
+                    "Notes": " السنة - 4",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "التعلم العميق"
+                    ],
+                    "CourseType": "متطلب تخصص اختياري"
+                },
+                {
+                    "CourseID": "AR455",
+                    "CourseName": "تفاعل الانسان والروبوت",
+                    "NumberOfHours": 3,
+                    "Description": "دراسة التفاعل بين الإنسان والروبوت.",
+                    "Notes": " السنة - 4",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "مختبر الروبوت 1"
+                    ],
+                    "CourseType": "متطلب تخصص اختياري"
+                },
+                {
+                    "CourseID": "AR453",
+                    "CourseName": "تقنيات التخطيط في الروبوتات",
+                    "NumberOfHours": 3,
+                    "Description": "دراسة استراتيجيات التخطيط والتحكم في الروبوتات.",
+                    "Notes": "السنة - 4",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "مختبر الروبوت 1"
+                    ],
+                    "CourseType": "متطلب تخصص اختياري"
+                },
+                {
+                    "CourseID": "AR459",
+                    "CourseName": "موضوعات خاصة في الذكاء الاصطناعي والروبوتات",
+                    "NumberOfHours": 3,
+                    "Description": "مواضيع متقدمة في الذكاء الاصطناعي والروبوتات.",
+                    "Notes": "يجب ان يكون الطالب قد قطع 90 ساعة السنة - 4",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [],
+                    "CourseType": "متطلب تخصص اختياري"
+                },
+                {
+                    "CourseID": "AR450",
+                    "CourseName": "نظرية التحكم الالي للروبوت",
+                    "NumberOfHours": 3,
+                    "Description": "دراسة التحكم الآلي للروبوتات.",
+                    "Notes": "السنة - 4",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "مختبر الروبوت 1"
+                    ],
+                    "CourseType": "متطلب تخصص اختياري"
+                },
+                {
+                    "CourseID": "AR329",
+                    "CourseName": "هندسة البرمجيات",
+                    "NumberOfHours": 3,
+                    "Description": "دراسة مفاهيم هندسة البرمجيات وتصميم الأنظمة.",
+                    "Notes": "السنة - 4",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "البرمجة الموجهة للكائنات"
+                    ],
+                    "CourseType": "متطلب تخصص اختياري"
+                },
+                {
+                    "CourseID": "30104202",
+                    "CourseName": "الدوائر والالكترونيات لطلبة الذكاء والروبوتات",
+                    "NumberOfHours": 3,
+                    "Description": "دراسة الدوائر الكهربائية والإلكترونية للروبوتات.",
+                    "Notes": "السنة - 2",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "التفاضل والتكامل (2)"
+                    ],
+                    "CourseType": "متطلبات التخصص المساندة"
+                },
+                {
+                    "CourseID": "30127301",
+                    "CourseName": "اساسيات الحركية والديناميكا لطلبة الذكاء والروبوتات",
+                    "NumberOfHours": 3,
+                    "Description": "دراسة الحركة والديناميكا للروبوتات.",
+                    "Notes": "السنة - 3",
+                    "ConcurrentCourses": [],
+                    "Prerequisite": [
+                        "التفاضل والتكامل (2)"
+                    ],
+                    "CourseType": "متطلبات التخصص المساندة"
+                }
+            ]
+        }
+    }
+}
